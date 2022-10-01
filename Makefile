@@ -164,6 +164,9 @@ QEMUOPTS += -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
 qemu: $K/kernel fs.img
 	$(QEMU) $(QEMUOPTS) -singlestep -d cpu,nochain,in_asm -D peter.log
 
+qemu2: $K/kernel fs.img
+	$(QEMU) $(QEMUOPTS)
+
 .gdbinit: .gdbinit.tmpl-riscv
 	sed "s/:1234/:$(GDBPORT)/" < $^ > $@
 
