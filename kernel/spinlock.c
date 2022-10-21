@@ -78,6 +78,14 @@ holding(struct spinlock *lk)
 {
   int r;
   r = (lk->locked && lk->cpu == mycpu());
+  // int *x;
+  // x=(int *)0x80000000;
+  // *x=lk->locked;
+  // struct cpu *x2=(struct cpu *)0x80000008;
+  // struct cpu *cpu=lk->cpu;
+  // *x2=*cpu;
+  // printf("lk->locked=%d\n", lk->locked);
+  // printf("lk->cpu=%d\n", lk->cpu);
   return r;
 }
 

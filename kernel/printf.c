@@ -118,6 +118,8 @@ printf(char *fmt, ...)
 void
 panic(char *s)
 {
+  printf("cpus=%p\n", cpus);
+
   pr.locking = 0;
   printf("panic: ");
   printf(s);

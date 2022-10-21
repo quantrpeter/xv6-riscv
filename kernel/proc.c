@@ -47,6 +47,7 @@ proc_mapstacks(pagetable_t kpgtbl)
 void
 procinit(void)
 {
+  panic("peter");
   struct proc *p;
   
   initlock(&pid_lock, "nextpid");
