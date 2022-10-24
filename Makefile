@@ -170,6 +170,9 @@ qemu2: $K/kernel fs.img
 h2:
 	java -jar qemu-log-panel-1.0-jar-with-dependencies.jar -f qemu.log
 
+quantrxml:
+	java -jar qemu-log-panel-1.0-jar-with-dependencies.jar -e
+
 .gdbinit: .gdbinit.tmpl-riscv
 	sed "s/:1234/:$(GDBPORT)/" < $^ > $@
 
