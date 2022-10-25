@@ -162,7 +162,7 @@ QEMUOPTS += -drive file=fs.img,if=none,format=raw,id=x0
 QEMUOPTS += -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
 
 qemu: $K/kernel fs.img
-	$(QEMU) $(QEMUOPTS) -singlestep -d cpu,nochain,in_asm,int -D qemu.log
+	$(QEMU) $(QEMUOPTS) -singlestep -d exec,cpu,nochain,in_asm,int -D qemu.log
 
 qemu2: $K/kernel fs.img
 	$(QEMU) $(QEMUOPTS)
