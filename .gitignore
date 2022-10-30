@@ -16,4 +16,5 @@ kernel/kernel
 user/usys.S
 .gdbinit
 database.mv.db
+database.trace.db
 peter.log
