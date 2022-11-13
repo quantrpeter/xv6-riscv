@@ -65,6 +65,11 @@ virtio_disk_init(void)
 
   initlock(&disk.vdisk_lock, "virtio_disk");
 
+  printf("*R(VIRTIO_MMIO_MAGIC_VALUE)=%x\n", *R(VIRTIO_MMIO_MAGIC_VALUE));
+  printf("*R(VIRTIO_MMIO_VERSION)=%x\n", *R(VIRTIO_MMIO_VERSION));
+  printf("*R(VIRTIO_MMIO_DEVICE_ID)=%x\n", *R(VIRTIO_MMIO_DEVICE_ID));
+  printf("*R(VIRTIO_MMIO_VENDOR_ID)=%x\n", *R(VIRTIO_MMIO_VENDOR_ID));
+
   if(*R(VIRTIO_MMIO_MAGIC_VALUE) != 0x74726976 ||
      *R(VIRTIO_MMIO_VERSION) != 2 ||
      *R(VIRTIO_MMIO_DEVICE_ID) != 2 ||
