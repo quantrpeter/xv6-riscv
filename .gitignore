@@ -19,3 +19,4 @@ database.mv.db
 database.trace.db
 peter.log
 setting.xml
+qemu.log
