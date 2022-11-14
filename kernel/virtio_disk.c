@@ -117,6 +117,7 @@ virtio_disk_init(void)
 
   // check maximum queue size.
   uint32 max = *R(VIRTIO_MMIO_QUEUE_NUM_MAX);
+  printf("max=%x\n",max);
   if(max == 0)
     panic("virtio disk has no queue 0");
   if(max < NUM)
