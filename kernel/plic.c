@@ -36,7 +36,7 @@ plic_claim(void)
   int hart = cpuid();
   int irq = *(uint32*)PLIC_SCLAIM(hart);
   // if (irq!=0xa)
-    printf("plic_claim %x\n", irq);
+    // printf("plic_claim %x\n", irq);
   return irq;
 }
 
@@ -46,6 +46,6 @@ plic_complete(int irq)
 {
   int hart = cpuid();
   // if (irq!=0xa)
-    printf("plic_complete %x\n", irq);
+    // printf("plic_complete %x\n", irq);
   *(uint32*)PLIC_SCLAIM(hart) = irq;
 }
