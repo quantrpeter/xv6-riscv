@@ -168,7 +168,7 @@ qemu2: $K/kernel fs.img
 	$(QEMU) $(QEMUOPTS)
 
 h2:
-	java -jar qemu-log-panel-1.0-jar-with-dependencies.jar -f qemu.log
+	java -jar qemu-log-panel-1.0-jar-with-dependencies.jar -f qemu.log -t2
 
 quantrxml:
 	java -jar qemu-log-panel-1.0-jar-with-dependencies.jar -e
