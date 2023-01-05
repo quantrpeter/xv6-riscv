@@ -976,7 +976,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_set_pending, irq=10, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -1160,7 +1160,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_set_pending, irq=10, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -1344,7 +1344,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_set_pending, irq=10, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -1528,7 +1528,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_set_pending, irq=10, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -1712,7 +1712,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_set_pending, irq=10, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -1896,7 +1896,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_set_pending, irq=10, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -1984,7 +1984,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_set_claimed irq=10, level=0
 sifive_plic_claimed addrid=0
@@ -1997,7 +1997,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2013,7 +2013,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2029,7 +2029,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2138,7 +2138,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_set_claimed irq=10, level=0
 sifive_plic_claimed addrid=0
@@ -2151,7 +2151,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2167,7 +2167,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2183,7 +2183,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2199,7 +2199,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2215,7 +2215,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2231,7 +2231,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2247,7 +2247,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2263,7 +2263,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2279,417 +2279,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
-sifive_plic_set_pending, irq=1, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_write hwaddr=201004, size=4, 1
-sifive_plic_set_claimed irq=1, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=10, level=0
-sifive_plic_set_claimed irq=10, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
-sifive_plic_write hwaddr=201004, size=4, a
-sifive_plic_set_claimed irq=10, level=0
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=1, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_claimed addrid=1
-sifive_plic_set_pending, irq=1, level=0
-sifive_plic_set_claimed irq=1, level=1
-sifive_plic_claimed addrid=0
-sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2705,7 +2295,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2721,7 +2311,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2737,7 +2327,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2753,7 +2343,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2769,7 +2359,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2785,7 +2375,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2801,7 +2391,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2817,7 +2407,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2833,7 +2423,7 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2849,7 +2439,23 @@ sifive_plic_set_pending, irq=1, level=0
 sifive_plic_set_claimed irq=1, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, 1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
 sifive_plic_set_pending, irq=1, level=0
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
@@ -2868,7 +2474,7 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_set_claimed irq=10, level=0
 sifive_plic_claimed addrid=0
@@ -2884,7 +2490,612 @@ sifive_plic_set_pending, irq=10, level=0
 sifive_plic_set_claimed irq=10, level=1
 sifive_plic_claimed addrid=0
 sifive_plic_claimed addrid=1
-sifive_plic_read hwaddr=201004, size=4, a
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_set_claimed irq=1, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, 1
+sifive_plic_set_pending, irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, 1
+sifive_plic_set_claimed irq=1, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_write hwaddr=201004, size=4, a
+sifive_plic_set_claimed irq=10, level=0
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_claimed addrid=1
+sifive_plic_set_pending, irq=10, level=0
+sifive_plic_set_claimed irq=10, level=1
+sifive_plic_claimed addrid=0
+sifive_plic_claimed addrid=1
+sifive_plic_read 5 hwaddr=201004, size=4, a
 sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_set_claimed irq=10, level=0
 sifive_plic_claimed addrid=0
