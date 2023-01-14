@@ -679,6 +679,8 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 ------------------------------------------
 sifive_plic_write hwaddr=28, size=4, 1
+  +0
+  +0.1
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
      sifive_plic_claimed addrid=0, plic->bitfield_words=3
@@ -694,6 +696,8 @@ sifive_plic_write end
 ------------------------------------------
 ------------------------------------------
 sifive_plic_write hwaddr=4, size=4, 1
+  +0
+  +0.1
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
      sifive_plic_claimed addrid=0, plic->bitfield_words=3
@@ -716,6 +720,7 @@ sifive_plic_write end
 ------------------------------------------
 sifive_plic_write hwaddr=201000, size=4, 0
   +2, addrid=1, contextid=0
+  +2.1
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
      sifive_plic_claimed addrid=0, plic->bitfield_words=3
@@ -8715,8 +8720,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -9528,6 +9534,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -9576,8 +9584,9 @@ sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_write end
 ------------------------------------------
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -10389,6 +10398,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -10437,8 +10448,9 @@ sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_write end
 ------------------------------------------
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -11250,6 +11262,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -11298,8 +11312,9 @@ sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_write end
 ------------------------------------------
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -12111,6 +12126,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -12159,8 +12176,9 @@ sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_write end
 ------------------------------------------
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -12972,6 +12990,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -13020,8 +13040,9 @@ sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_write end
 ------------------------------------------
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -13417,6 +13438,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -13465,8 +13488,9 @@ sifive_plic_write hwaddr=201004, size=4, a
 sifive_plic_write end
 ------------------------------------------
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -13524,6 +13548,8 @@ sifive_plic_read, addr=201004, size=4
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -13585,8 +13611,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -13657,6 +13684,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -13718,8 +13747,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -13790,6 +13820,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -13851,8 +13883,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -13923,6 +13956,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -14882,8 +14917,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=400, plic->pending[i]=400, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -14941,6 +14977,8 @@ sifive_plic_read, addr=201004, size=4
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, a
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=10, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15002,8 +15040,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -15074,6 +15113,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15135,8 +15176,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -15207,6 +15249,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15268,8 +15312,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -15340,6 +15385,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15401,8 +15448,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -15473,6 +15521,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15534,8 +15584,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -15606,6 +15657,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15667,8 +15720,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -15739,6 +15793,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15800,8 +15856,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -15872,6 +15929,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
@@ -15933,8 +15992,9 @@ sifive_plic_irq_request
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
         - pending_enabled_not_claimed=0, plic->pending[i]=0, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=0
 --------------------------------------
-sifive_plic_read, addr=201004, size=4
-  sifive_plic_read 45
+sifive_plic_read, addr=201004, size=4, plic->priority_base=4, plic->num_sources=60
+  sifive_plic_read 45, addrid : 1 = (addr=201004 - plic->context_base=200000) / plic->context_stride=1000
+  sifive_plic_read 45, contextid=4
     sifive_plic_claimed 2
      sifive_plic_claimed addrid=1, plic->bitfield_words=3
         - pending_enabled_not_claimed=2, plic->pending[i]=2, plic->claimed[i]=0, plic->enable[addrid * plic->bitfield_words + i]=402
@@ -16005,6 +16065,8 @@ sifive_plic_irq_request
 ------------------------------------------
 sifive_plic_write hwaddr=201004, size=4, 1
   +2, addrid=1, contextid=4
+  +2.3
+  +2.4
   sifive_plic_set_claimed irq=1, level=0, -!!level=0
   sifive_plic_update, plic->num_addrs=2
     sifive_plic_update - set, mode=3
