@@ -20,3 +20,4 @@ database.trace.db
 peter.log
 setting.xml
 qemu.log
+qemu_plic.log
