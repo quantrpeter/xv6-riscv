@@ -21,3 +21,5 @@ peter.log
 setting.xml
 qemu.log
 qemu_plic.log
+.DS_Store
+
